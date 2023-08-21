@@ -1,0 +1,15 @@
+.login {
+    
+    &__banner {
+        height: 300px;
+        width: 300px;
+        background: url('../img/br-phill.jpg') center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+}

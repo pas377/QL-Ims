@@ -1,0 +1,75 @@
+@import 'config', 'login';
+
+body {
+    background: black;
+    color: white;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+} 
+
+h2 {
+    border-top: 0.12rem solid white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h3 {
+    border-bottom: 0.12rem solid white;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+banner {
+    height: 300px;
+    width: 300px;
+    background: url('../img/br-phill.jpg') center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    border: 0.12rem solid white;
+    padding: 2rem;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+    margin-inline: 2rem;
+    margin-top: 0.5rem;
+    border: 0.12rem solid white;
+    //nesting .social-icons/ loginh button
+}
+
+footer {
+    font-size: .8rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 1rem;
+    text-align: right;
+    padding: 1rem;
+    color: white;
+}
